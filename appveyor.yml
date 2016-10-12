@@ -1,0 +1,5 @@
+build_script:
+- nuget restore Services\WordCount\WordCount.sln
+- msbuild Services\WordCount\WordCount.sln
+
+test: off
